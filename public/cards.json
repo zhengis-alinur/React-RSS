@@ -1,0 +1,44 @@
+{
+  "A": [
+    {
+      "word": "boy",
+      "url": "https://www.carters.com/on/demandware.static/-/Sites-Carters-Library/default/dwd892b114/content/carters/cslp/sbc/040121/CAR_Q2_2021_KB_ShopAll.jpg",
+      "translate": "мальчик"
+    },
+    {
+      "word": "girl",
+      "url": "https://files.lifehacks.io/wp-content/uploads/funny-questions-to-ask-a-girl-1024x854.jpg",
+      "translate": "девочка"
+    },
+    {
+      "word": "friend",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQONFGmaoq0jxhusuaCLdPOXaB4LcidZtCpYA&usqp=CAU",
+      "translate": "друг"
+    },
+    {
+      "word": "neighbour",
+      "url": "https://mirpozitiva.ru/wp-content/uploads/2019/11/1498131772_sosed.jpg",
+      "translate": "муж"
+    },
+    {
+      "word": "wife",
+      "url": "https://www.daysoftheyear.com/wp-content/uploads/wife-appreciation-day2.jpg",
+      "translate": "жена"
+    },
+    {
+      "word": "teacher",
+      "url": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/sites/34/2014/11/math-teacher.jpg",
+      "translate": "учитель"
+    },
+    {
+      "word": "grandmother",
+      "url": "http://2.bp.blogspot.com/-GKVeV5-nAdQ/UVAaO1zl4bI/AAAAAAAAEB0/OPRh_ehk1FA/s1600/stockgrandmother.jpg",
+      "translate": "бабушка"
+    },
+    {
+      "word": "sister",
+      "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sister-quotes-1564697339.jpg?crop=0.546xw:0.820xh;0.271xw,0.118xh&resize=640:*",
+      "translate": "сестра"
+    }
+  ]
+}
