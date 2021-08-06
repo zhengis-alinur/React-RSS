@@ -20,9 +20,7 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
-    "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"],
-    "linebreak-style": 0,
-    'react/jsx-filename-extension': [2, { 'extensions': ['.js', '.jsx', '.ts', '.tsx'] }]
+    'react/jsx-filename-extension': 'off',
+    'no-use-before-define': 'off',
   },
 };

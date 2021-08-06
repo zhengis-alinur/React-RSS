@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = () => {
-    return (
-        <h1>Hello Wolrd!</h1>
-    )
-}
-const root = document.getElementById('root');
-ReactDOM.render(<App />, root);
+const App = () => <h1> sadfjaslkdjflkasd</h1>;
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root'),
+);
