@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from './Card'
 import { Search } from './Search'
+import '../styles/App.scss'
 
 export const App = () => {
   const cards = [

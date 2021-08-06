@@ -104,13 +104,10 @@ body {
 
   color: var(--grey);
   line-height: 1.55;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
-.small {
+.card {
   width: clamp(160px, 35%, 300px);
   padding: 24px;
 }
