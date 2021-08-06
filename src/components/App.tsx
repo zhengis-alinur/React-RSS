@@ -72,7 +72,9 @@ export const App = () => {
 
   return (
     <>
-      <Search />
+      <div className="header">
+        <Search />
+      </div>
       <div className="cards">
         {cards.map((elem) => {
           return elem

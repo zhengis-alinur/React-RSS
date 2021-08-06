@@ -2,12 +2,16 @@
   margin: 0;
   padding: 0;
 }
-h1 {
-  color: blue;
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .cards {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
   .card {
