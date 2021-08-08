@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 type FormProps = {
-  is: boolean
+  //props
 }
 
 type FormState = {

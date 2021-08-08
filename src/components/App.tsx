@@ -5,7 +5,7 @@ import { Card } from './Card'
 export const App = (): ReactElement => {
   return (
     <div>
-      <Form is={false} />
+      <Form/>
       <Card />
     </div>
   )

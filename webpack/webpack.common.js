@@ -1,7 +1,6 @@
-const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const miniCss = require('mini-css-extract-plugin');
-const CopyPlugin = require('copy-webpack-plugin')
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: path.resolve(__dirname, '..', './src/index.tsx'),
@@ -11,7 +10,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(ts|js)x?$/,
+        test: /\.(ts|js)x?/,
         exclude: /node_modules/,
         use: [
           {
@@ -20,20 +19,20 @@ module.exports = {
         ],
       },
       {
-        test:/\.(s*)css$/,
-        use: [
-           miniCss.loader,
-           'css-loader',
-           'sass-loader',
-        ]
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+        test: /\.s[ac]ss$/i,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
+      },
+      {
+        test: /\.(?:ico|png|jpe?g|gif|svg)$/i,
         type: 'asset/resource',
       },
       {
-        test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
-        type: 'asset/inline',
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
       },
     ],
   },
@@ -45,14 +44,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, '..', './src/index.html'),
     }),
-    new miniCss({
-      filename: 'style.css',
-   }),
     new CopyPlugin({
-      patterns: [
-        { from: './public'}
-      ]
-    })
+      patterns: [{ from: path.resolve(__dirname, '..', './src/assets'), to: 'assets' }],
+    }),
   ],
-  stats: 'errors-only',
-}
+};
